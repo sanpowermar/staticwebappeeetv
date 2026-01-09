@@ -1,0 +1,66 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #f4f6f9;
+}
+
+/* HERO */
+.hero {
+  height: 100vh;
+  background: linear-gradient(rgba(0,60,143,0.8), rgba(0,60,143,0.8)),
+  url('https://images.pexels.com/photos/256502/pexels-photo-256502.jpeg') center/cover;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 70px;
+}
+
+.hero h1 {
+  font-size: 48px;
+}
+
+/* SECTIONS */
+.section {
+  padding: 70px 15px;
+}
+
+.card {
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.15);
+}
+
+/* FOOTER */
+.footer {
+  background: #021f49;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+/* WHATSAPP */
+#whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25D366;
+  color: white;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  text-decoration: none;
+}
+
+/* MOBILE */
+@media (max-width: 576px) {
+  .hero h1 {
+    font-size: 32px;
+  }
+}
